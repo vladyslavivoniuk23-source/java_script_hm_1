@@ -85,11 +85,13 @@ function triangle(val1, type1, val2, type2) {
             return "failed";
         }
 
-        console.log(`a = ${+a.toFixed(2)}`);
-        console.log(`b = ${+b.toFixed(2)}`);
-        console.log(`c = ${+c.toFixed(2)}`);
-        console.log(`alpha = ${+alpha.toFixed(2)}°`);
-        console.log(`beta = ${+beta.toFixed(2)}°`);
+        console.log(`a = ${a}`);
+        console.log(`b = ${b}`);
+        console.log(`c = ${c}`);
+        console.log(`alpha = ${alpha}`);
+        console.log(`beta = ${beta}`);
+
+        return "success";
 
         return "success";
 
